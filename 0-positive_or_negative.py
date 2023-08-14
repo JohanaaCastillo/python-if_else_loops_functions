@@ -1,6 +1,6 @@
-#include <stdlib.h>
-#include <time.h>
-#include <stdio.h>
+include <stdlib.h>
+include <time.h>
+include <stdio.h>
 
 #!/usr/bin/python3
 import random
@@ -12,11 +12,11 @@ int main(void){
 
 	srand(time(0));
 	number = rand() - RAND_MAX / 2;
-	if (n < 0)
+	if (number < 0)
 	{
 		printf("%d is negative\n", number);
 	} 
-    else if (n == 0)
+    else if (number == 0)
 	{
 		printf("%d is zero\n", number);
 	} else
